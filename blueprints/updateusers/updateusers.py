@@ -24,6 +24,6 @@ def update_user(id):
         client.update_one({"_id" : id } , {'$set' : user})
 
     except Exception as e : 
-        print(e) 
+        return f"Failed to update user try after some time"
 
     return user 

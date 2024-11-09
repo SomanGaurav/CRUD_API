@@ -14,6 +14,7 @@ def create_user():
     try : 
         client.insert_one(user_dict)
     except : 
-        print("error")
+        return f"Failed to create user try after some time"
+
     return f"User data {username} and {email} and {password}"
 

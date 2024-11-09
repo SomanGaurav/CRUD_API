@@ -1,6 +1,4 @@
-from flask import Flask , Blueprint , request , jsonify
-from mongo import get_db
-from bson import ObjectId
+from flask import Flask 
 import os
 
 
@@ -17,12 +15,11 @@ app = Flask(__name__)
 app.register_blueprint(users)
 app.register_blueprint(creator)
 app.register_blueprint(user_update)
-
+app.register_blueprint(delete_user)
 
 
 @app.route("/")
 def home(): 
-    print(os.environ.get("APP_PORT"))
     return "Hello World" 
 
 
