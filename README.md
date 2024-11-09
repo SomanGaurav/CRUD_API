@@ -7,7 +7,7 @@ Before we begin we have to make sure that
 - Docker
 is installed properly on the system
 
-##Installation 
+## Installation 
 - Start by cloning the git repoistory using the repo link :- "https://github.com/SomanGaurav/CRUD_API.git"
 - Change the working directory to the project directory :- cd CRUD_API
 - Build the docker containers using :- docker-compose up --build
