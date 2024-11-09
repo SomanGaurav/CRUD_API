@@ -17,3 +17,10 @@ is installed properly on the system
   What happens is nginx is running on port 80 that forwards all the requests to the flask server . It acts like a load balancer , when there is huge amount of traffic on the server we can run multiple instaces of the container . The nginx server will help in distributing the requests among many instances . This is called **Horizontal Scaling**
 - For closing the application use :- docker-compose down
   
+## API-ENDPOINTS 
+- API TESTING :- localhost 
+- GET LIST OF USERS :- localhost/user
+- GET specific USER :- localhost/user/<id>
+- update specific USER :- localhost/user/<id>  PUT request alongside form data
+- Create a USER :- localhost/user POST request alongside form data
+- Delte a user :- localhost/user/<id> Delete request 
