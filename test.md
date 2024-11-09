@@ -1,7 +1,4 @@
-
-
-
-
+# The following file is the rest report of the api testing represented in pictorial form 
 
 ## Test cases 
 
