@@ -15,8 +15,6 @@ def delete_user(id):
         return f"User of id {str(id)} Deleted Successfully"
     except Exception as e: 
         user = client.find_one({"_id" : id})
-        if not user : 
-            return f"No user found of id {str(id)}"
-        
         print(e)
-    
+    return f"No user found of id {str(id)}"
+
