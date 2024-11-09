@@ -11,9 +11,6 @@ services :
       MONGODB_USERNAME : gaurav 
       MONGODB_PASSWORD : gaurav 
 
-    volumes : 
-      - "./:/app" 
-
     depends_on : 
       - mongo
 
