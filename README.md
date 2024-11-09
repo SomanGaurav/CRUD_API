@@ -1,4 +1,4 @@
-#Flask with NGINX MONGODB and Docker 
+# Flask with NGINX MONGODB and Docker 
 
 This project is implementation of a simple **Flask** based crud api that runs behind a **nginx reverse proxy** using **Docker and Docker-Compose** .
 
